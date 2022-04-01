@@ -1,6 +1,5 @@
-// https://medium.com/@ItsCuzzo/using-merkle-trees-for-nft-whitelists-523b58ada3f9
-//
-// 1. Import libraries. Use `npm` package manager to install
+//OG and WL root
+
 const { MerkleTree } = require('merkletreejs');
 const keccak256 = require('keccak256');
 const wllist = require("./wllist.json");
